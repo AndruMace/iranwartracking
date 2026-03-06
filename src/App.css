@@ -3,6 +3,13 @@
   height: 100%;
 }
 
+/* Dark-mode map tiles: invert Voyager (colorful light map) into a rich dark basemap.
+   land → dark blue-slate, ocean → deep navy, roads → subtle, labels → white.
+   Applied only to the tile pane so markers/popups are unaffected. */
+.leaflet-tile-pane {
+  filter: invert(93%) hue-rotate(180deg) saturate(2.2) brightness(0.86);
+}
+
 /* Strip Leaflet's default white popup chrome */
 .leaflet-popup-content-wrapper {
   background: transparent !important;
