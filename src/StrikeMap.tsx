@@ -15,7 +15,7 @@ const INITIATOR_COLOR: Record<Initiator, string> = {
 };
 
 const INITIATOR_LABEL: Record<Initiator, string> = {
-  'USA': '🇺🇸🇮🇱 US / Israel (joint)',
+  'USA': '🇺🇸 United States',
   'Israel':       '🇮🇱 Israel',
   'Iran':         '🇮🇷 Iran',
   'Hezbollah':    '⚡ Hezbollah (Lebanon)',
