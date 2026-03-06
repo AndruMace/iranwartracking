@@ -10,6 +10,12 @@
   filter: invert(93%) hue-rotate(180deg) saturate(2.2) brightness(0.86);
 }
 
+/* Strip Leaflet's default DivIcon background/border */
+.custom-strike-marker {
+  background: transparent !important;
+  border: none !important;
+}
+
 /* Strip Leaflet's default white popup chrome */
 .leaflet-popup-content-wrapper {
   background: transparent !important;
